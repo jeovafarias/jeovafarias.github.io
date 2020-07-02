@@ -83,10 +83,10 @@ author:
   name             : "Jeova F. S. Rocha Neto"
   avatar           : "photoMoi.png"
   bio              : "PhD Student at Brown University"
-  location         : "Test, California"
+  location         : "Providence, Rhode Island"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com.br/citations?user=jpdvR1IAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
