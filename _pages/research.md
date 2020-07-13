@@ -1,6 +1,12 @@
 ---
-layout: archive title: "Research" permalink: /research/ author_profile: true
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
 ---
+
+{% include base_path %}
+
 
 My research revolves around usupervised problems in Computer Vision. Following,
 you will find some projects I worked on in the past.
@@ -85,5 +91,3 @@ Our work showed that translating the image intensities to maps of statistics,
 one computed for each pixel, can lead to much clearer segmentations, even using
 simple algorithms such as Otsu's. Two maps were used in this research: an
 estimated $\mathcal{G}^0$ parameter called roughtness and the Renyie Entropy.
-
-{% include base_path %}
