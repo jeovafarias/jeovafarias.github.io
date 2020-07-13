@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Jeova F. S. Rocha Neto"
 description              : &description "PhD Student at Brown University"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jeova F. S. Rocha Neto"
   avatar           : "photoMoi.png"
-  bio              : "PhD Student at Brown University"
+  bio              : "PhD Student at Brown University studying Computer Vision and Machine Learning"
   location         : "Providence, Rhode Island"
   employer         :
   pubmed           : 
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/jeovafarias"
+  github           : "jeovafarias"
   google_plus      :
   keybase          :
   instagram        :
