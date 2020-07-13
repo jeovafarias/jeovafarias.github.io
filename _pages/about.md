@@ -16,5 +16,5 @@ current research, I am interested in using discrete optimization an statistics
 to tackle Image Segmentation. I earned my Masters degree in Computer Science at [University of Nice-
 Sophia Antipolis](http://unice.fr/) under Prof. [Marc
 Antonini](http://www.i3s.unice.fr/~am/Biography.html). Prior to that, I
-completed my Bachelors degree in Computer Engineering at Federal University of
-Ceara under Prof. [Fátima N. S. de Medeiros](http://lattes.cnpq.br/5144730275745518).
+completed my Bachelors degree in Computer Engineering at [Federal University of
+Ceara (UFC)](http://www.ufc.br/) under Prof. [Fátima N. S. de Medeiros](http://lattes.cnpq.br/5144730275745518).
