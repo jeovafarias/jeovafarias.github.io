@@ -12,6 +12,21 @@ My research revolves around usupervised problems in Computer Vision. Following,
 you will find some projects I worked on in the past.
 
 ### Spectral Image Segmentation
+Improving graph-based segmentation algorithms using long range neighborhoods
+Graph based segmentation methods constantly rely on solving cut problems on graphs
+whose pixel information is local, i.e., its color data only interacts with that of
+its neighbours. The necessary insertion of global information is then given by the
+user, who provides either the desired color distributions on each region, seeds or
+bounding boxes, or it is learned through iterative algorithms, such as Grabcut 
+(which still requires some supervision).
+
+In my research over the past year, we were able to develop new global spectral
+algorithms for graph based image segmentation that did not require any user
+interaction. We did so by adding new edges to the usual image grid graph, which
+brought up a notion of long range neighbours. We compensated the increase in the
+number of edges by developing faster approximate solvers for this problem by using
+importance sampling on the edge set. With that, we were able to improve established
+results in Graph Cuts segmentation and Random Walk algorithms. 
 
 ### Direct Estimation of Apearence Models for Segmentation
 Image segmentation can be easily accomplished if one knows the color
