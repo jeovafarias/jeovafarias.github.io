@@ -12,7 +12,6 @@ My research revolves around usupervised problems in Computer Vision. Following,
 you will find some projects I worked on in the past.
 
 ### Spectral Image Segmentation
-Improving graph-based segmentation algorithms using long range neighborhoods
 Graph based segmentation methods constantly rely on solving cut problems on graphs
 whose pixel information is local, i.e., its color data only interacts with that of
 its neighbours. The necessary insertion of global information is then given by the
