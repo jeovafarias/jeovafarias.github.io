@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year PhD student in Computer Engineering at [Brown
+I am a fifth year PhD candidate in Computer Engineering at [Brown
 University](https://www.brown.edu/) and I have the honor to be advised by Prof.
 [Pedro Felzenszwalb](http://cs.brown.edu/people/pfelzens/). I earned my Masters
 degree in Computer Science at [University of Nice-
