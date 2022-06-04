@@ -1,6 +1,6 @@
-image: assets/img/photoMoi.png
+image: assets/img/myphoto.png
 username: Jeova Farias Sales Rocha Neto
-description:  I am currently a Visiting Assistant Professor in the Computer Science Department at [Haverford College](https://www.haverford.edu/">Haverford College). I received my PhD Computer Engineering at [Brown University](https://www.brown.edu/) in 2021, where I had the honor to be advised by Prof. [Pedro Felzenszwalb](cs.brown.edu/people/pfelzens/). I earned my Masters degree in Computer Science at [University of Nice-Sophia Antipolis](unice.fr) under Prof. [Marc Antonini](http://www.i3s.unice.fr/~am/Biography.html). Prior to that, I completed my Bachelors degree in Computer Engineering at [Federal University of Ceara (UFC)](http://www.ufc.br) Prof. [Fátima N. S. de Medeiros](http://lattes.cnpq.br/5144730275745518). I am broadly interested in unsupervised problems in Computer Vision and Data Science. In my current research, I am interested in using discrete optimization and statistics to tackle Image Segmentation. Previously, I studied problems involving Subspace Clustering, Semidefinite Programing and Belief propagation. In my undergrad years, my research focus was on SAR Image Segmentation and Level Sets.
+description:  I am currently a Visiting Assistant Professor in the Computer Science Department at [Haverford College](https://www.haverford.edu/">Haverford College). I received my PhD Computer Engineering at [Brown University](https://www.brown.edu/) in 2021, where I had the honor to be advised by Prof. [Pedro Felzenszwalb](cs.brown.edu/people/pfelzens/). I earned my Masters degree in Computer Science at [University of Nice-Sophia Antipolis](unice.fr) under Prof. [Marc Antonini](http://www.i3s.unice.fr/~am/Biography.html). Prior to that, I completed my Bachelors degree in Computer Engineering at [Federal University of Ceara (UFC)](http://www.ufc.br) Prof. [Fátima N. S. de Medeiros](http://lattes.cnpq.br/5144730275745518). <br> <br> I am broadly interested in unsupervised problems in Computer Vision and Data Science. In my current research, I am interested in using discrete optimization and statistics to tackle Image Segmentation. Previously, I studied problems involving Subspace Clustering, Semidefinite Programing and Belief propagation. In my undergrad years, my research focus was on SAR Image Segmentation and Level Sets.
 webpage: https://chrjabs.github.io
 experience:
   - start: 2017-05-03
@@ -21,17 +21,17 @@ skills:
   - skill: HTML5 & CSS
     value: 85  # Percent value
 social:
-  email:  # Full email address, e.g. "sample@google.com"
+  email: jeova_farias@brown.edu
   orcid: 
-  scholar: 
+  scholar: jpdvR1IAAAAJ&hl
   publons: 
   research_gate: 
-  linkedin:  # Full URL 
-  github: chrjabs
+  linkedin:  https://www.linkedin.com/in/jeova-farias 
+  github: jeovafarias
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket:
   google_plus:
-  twitter: chrjabs
+  twitter: 
   youtube:
   facebook:
   instagram:

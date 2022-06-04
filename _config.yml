@@ -8,13 +8,10 @@ blog: True
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
+title: Jeova Farias
 tagline: A jekyll theme for academic portfolios
 description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Jeova Farias (chrjabs)
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
+author: Jeova Farias
 logo: /assets/img/smile.png
 social:
   name: Jeova Farias
@@ -25,7 +22,7 @@ locale: en_GB
 
 # Page Settings
 theme_settings:
-  title: Grape Academic Theme
+  title: Jeova Farias
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
@@ -51,8 +48,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Myself, M.]
+  last_name: Farias Sales Rocha Neto    
+  first_name: Jeova
   sort_by: year,month
   order: descending,ascending
 
