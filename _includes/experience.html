@@ -3,7 +3,9 @@
   {% for exp in site.data.profile.experience %}
   <li class="meta">
     <p class="date">{{ exp.start }} &ndash; {{ exp.end }}</p>
-    <p class="description">{{ exp.experience }}</p>
+    <p class="description"><em>{{ exp.title }}</em></p>
+    <p class="university">{{ exp.university }}</p>
+
   </li>
   {% endfor %}
 </ul>

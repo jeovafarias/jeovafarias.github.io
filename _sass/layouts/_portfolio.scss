@@ -85,10 +85,10 @@
         }
         li.meta {
           position: relative;
-          padding: 15px 0 15px 30px;
+          padding: 0 0 15px 30px;
           p {
-            font-weight: 600;
-            line-height: 1rem;
+/*             font-weight: 600; */
+            line-height: 10pt;
           }
           .date {
             font-size: 0.75rem;
@@ -96,6 +96,12 @@
           }
           .description {
             font-size: 1rem;
+            font-style: italic;
+          }
+          .university{
+             font-size: 0.9rem; 
+             font-weight: bold;
+
           }
         }
         li.meta::before {
@@ -103,7 +109,7 @@
           position: absolute;
           width: 15px;
           height: 15px;
-          top: 42%;
+          top: 0%;
           left: -10px;
           background-color: $theme-color;
           border-radius: 50%;
@@ -170,7 +176,7 @@
         li.interest {
           margin: 8px auto;
           padding-left: 5px;
-          font-size: 1rem;
+          font-size: 15pt;
           font-weight: 600;
         }
         li.interest::before {

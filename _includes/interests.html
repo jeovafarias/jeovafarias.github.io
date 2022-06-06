@@ -1,3 +1,10 @@
+<!--<p class="title">CURRENT EMPLOYMENT</p>
+<ul class="interests-list">
+  {% for emp in site.data.profile.current_employment %}
+  <li  class="interest">{{ emp.where }}</li>
+  {% endfor %}
+</ul>-->
+
 <p class="title">{{ site.theme_settings.interests_title }}</p>
 <ul class="interests-list">
   {% for interest in site.data.profile.interests %}
