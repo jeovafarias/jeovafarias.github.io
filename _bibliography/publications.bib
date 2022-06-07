@@ -51,9 +51,12 @@ References
 @article{alixandre2015,
   author={FAA. Rodrigues and Farias Sales Rocha Neto, Jeova and RCP. Marques and FNS. de Medeiros and JS. Nobre}, 
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={{SAR} Image Segmentation Using the Roughness Information}, 
+  title={SAR Image Segmentation Using the Roughness Information}, 
   year={2016}, 
-  month={Feb}
+  month={Feb},
+  abstract={Image segmentation can be applied to a broad class of different problems. However, it is not usually a simple task for synthetic aperture radar (SAR) images due to the presence of speckle. Given the importance of SAR images in remote sensing problems, this letter introduces a simplified and general methodology to achieve SAR image segmentation by using the estimated roughness parameters of SAR data modeled by G I 0 and G A 0 distributions, instead of directly processing the speckled images. In this letter, we adopted the log-cumulants method for the roughness parameter estimation. The performance evaluation of the results was attained in terms of the error of segmentation and cross-region fitting measures for synthetic and real SAR images, respectively. With regard to synthetic images, we performed Monte Carlo experiments which confirmed the suitability of SAR image segmentation by means of roughness parameters. The results showed that the methodology provides a feasible input to SAR image segmentation algorithms which also include thresholding-based methods. The proposed approach accomplished satisfactory results for the most interesting and critical study case, i.e., the single-look images, which are markedly affected by speckle.},
+  url={https://ieeexplore.ieee.org/document/7374667},
+  bibtex_show = true,
 }
 
 @article{ricardo2016, 
@@ -61,7 +64,10 @@ References
   journal={IEEE Signal Processing Letters}, 
   title={{SAR} Image Segmentation With Renyi's Entropy}, 
   year={2016},
-  month={Nov}
+  month={Nov},
+  url={https://ieeexplore.ieee.org/document/7562415},
+  abstract={Synthetic aperture radar (SAR) image segmentation is an important task in image processing. However, classic segmentation techniques are inadequate due to the presence of speckle noise. In this paper, we present a methodology for SAR image segmentation that uses the matrix of Rényi's entropy. This matrix arises from SAR data that follows the G A 0 model, and here, it is an input to segmentation methods. For performance evaluation of the proposed methodology, we employ the error of segmentation, the cross-region fitting index, the Dice measure, as well as the rates of false positives and negatives. Tests have been performed on synthetic and real SAR images and the matrix of entropy has improved the results, regardless of the increase of the number of looks. The Otsu's method of global thresholding produced good segmentation results when applied to this matrix.},
+  bibtex_show = true,
 }
 
 @article{neto2017unsupervised,
@@ -69,7 +75,10 @@ References
   author={L. C. Neto and G. L. B. Ramalho and Farias Sales Rocha Neto, Jeova and R. M. S. Veras and F. N. S. Medeiros},
   journal={Expert Systems with Applications}, 
   year={2017}, 
-  month={Feb}
+  month={Feb},
+  abstract={Algorithms for retinal vessel segmentation are powerful tools in automatic tracking systems for early detection of ophthalmological and cardiovascular diseases, and for biometric identification. In order to create more robust and reliable systems, the algorithms need to be accurately evaluated to certify their ability to emulate specific human expertise. The main contribution of this paper is an unsupervised method to detect blood vessels in fundus images using a coarse-to-fine approach. Our methodology combines Gaussian smoothing, a morphological top-hat operator, and vessel contrast enhancement for background homogenization and noise reduction. Here, statistics of spatial dependency and probability are used to coarsely approximate the vessel map with an adaptive local thresholding scheme. The coarse segmentation is then refined through curvature analysis and morphological reconstruction to reduce pixel mislabeling and better estimate the retinal vessel tree. The method was evaluated in terms of its sensitivity, specificity and balanced accuracy. Extensive experiments have been conducted on DRIVE and STARE public retinal images databases. Comparisons with state-of-the-art methods revealed that our method outperformed most recent methods in terms of sensitivity and balanced accuracy with an average of 0.7819 and 0.8702, respectively. Also, the proposed method outperformed state-of-the-art methods when evaluating only pathological images that is a more challenging task. The method achieved for this set of images an average of 0.7842 and 0.8662 for sensitivity and balanced accuracy, respectively. Visual inspection also revealed that the proposed approach effectively addressed main image distortions by reducing mislabeling of central vessel reflex regions and false-positive detection of pathological patterns. These improvements indicate the ability of the method to accurately approximate the vessel tree with reduced visual interference of pathological patterns and vessel-like structures. Therefore, our method has the potential for supporting expert systems in screening, diagnosis and treatment of ophthalmological diseases, and furthermore for personal recognition based on retinal profile matching.},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0957417417300970},
+  bibtex_show = true,
 }
 
 @inproceedings{jeova2017otsu,
@@ -78,6 +87,9 @@ References
   booktitle={IEEE International Conference on Image Processing (ICIP)},
   year={2017},
   month={Sep},
+    abstract={Noisy image segmentation is one of the most important and challenging problem in computer vision. In this paper, we propose a level set segmentation technique inspired by the classic Otsu thresholding method. The front propagation of the proposed level set based method embeds a cost function that takes into account first-order statistical moments. In order to deal with highly noisy images, we also added a morphological step to our algorithm which led the final segmentation more robust and efficient. Tests were carried out on images artificially contaminated with Gaussian and Salt & Pepper noise patterns. The results showed that our methodology outperformed the classic Otsu thresholding algorithm and an active contour based technique in terms of the Error of Segmentation (EoS), Rate of False Positive (RFP), Rate of False Negative (RFN) and Dice evaluation measures. In addition, the designed algorithm attained a lower average computational time when compared to the active contour related method.},
+  url={https://ieeexplore.ieee.org/document/8296661},
+  bibtex_show = true,
 }
 
 @inproceedings{allan2017descriptor,
@@ -85,7 +97,10 @@ References
   author={A. C. Carneiro and J. G. F. Lopes and Farias Sales Rocha Neto, Jeova and M. M. S. Souza and F. N. S. Medeiros},
   booktitle={IEEE Symp. on Signal Process. and Inf. Technol. (ISSPIT)},
   year={2017},
-  month={Feb}
+  month={Feb},
+    abstract={Shape description often relies on parameter adjustment in order to configure a meaningful scale that enables a computer vision task. Instead of manual interaction, which is prohibitive for large datasets, an alternative solution towards supporting multiscale methodology is to apply metaheuristic optimization. Nevertheless, the cost function assigned to the optimization process is an open question that we fully address in this paper. Our investigation describes the influence of the cost function on the performance of an optimized multiscale shape descriptor using three distinct clustering metrics: the Silhouette, Davies-Bouldin and Calinski-Harabasz indices. Thus, we optimize the scale parameters of the Normalized Multiscale Bending Energy descriptor using the Simulated Annealing metaheuristic; both classification and retrieval experiments are conducted using a synthetic shape dataset (Kimia 99), two real plant leaf datasets (ShapeCN and Swedish) and the National Library of Medicine (NLM) pill image dataset (NLM Pills). Using the Bulls-eye ratio and the Accuracy measure, the performance evaluation showed that optimized descriptor with the Calinski-Harabasz cost function underperformed other functions for datasets where there is high level of dissimilarity between classes. Particularly for the NLM Pills, where each class has a well-defined pattern and differences within pill classes are quite small, the Normalized Multiscale Bending Energy descriptor did not benefit from the optimization methodology. We also present a qualitative assessment of the cluster arrangements produced by the Self-Organizing Map (SOM) which reinforced that the three cost functions performed differently within the optimized shape descriptor.},
+  url={https://ieeexplore.ieee.org/document/8388317},
+  bibtex_show = true,
 }
 
 @article{carneiro2019Parameter,
@@ -94,6 +109,9 @@ References
   journal = {Pattern Recognition Letters},
   year = {2019},
   month={Jun},
+    abstract={Shape analysis is a key task in computer vision, and multiscale descriptors can significantly enhance shape characterization. However, these descriptors often rely on parameter adjustments to configure a meaningful set of scales that can enable shape analysis. Parameter adjustment in large image datasets is often done on a trial-and-error basis, and an alternative solution to mitigate such a limitation is the use of metaheuristic optimization. The main contribution of this paper is to provide a strategy that supports the automatic parameter adjustment of a multiscale descriptor within a metaheuristic optimization algorithm, where the choice of the cost function strongly influences and boosts the performance of the shape description, which is closely related to the problem domain, i.e. the image dataset. Our research considers synthetic data in a prior evaluation of the cost functions that optimize the scale parameters of the Normalized Multiscale Bending Energy (NMBE) descriptor through the Simulated Annealing (SA) metaheuristic. The cost functions that drive this metaheuristic are: Silhouette (SI), the Davies–Bouldin index (DB) and the Calinski-Harabasz index (CH). We conduct content-based image retrieval and classification experiments to assess the optimized descriptor using three healthcare image datasets: Amphetamine Type Stimulants (ATS) pills (Illicit Pills), pills from the National Library of Medicine (NLM Pills) and hand alphabet gestures (Hands). We also provide segmentation masks for Illicit Pills to guarantee reproducibility. We report the results of tests using a state-of-art method based on a deep neural network, Inception-ResNet-v2. The optimized NMBE with SI and DB achieved competitive and accurate values of above 94%, in terms of both the Mean Average Precision measure (MAP) and Accuracy (ACC) for Illicit Pills and NLM Pills. The precision recall curves demonstrate that it outperforms the Inception-ResNet-v2 for both of these datasets.},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0167865519301849},
+  bibtex_show = true,
 }
 
 @article{jeova2018infinitemoments, 
@@ -101,7 +119,10 @@ References
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={Level-set Formulation Based on an Infinite Series of Sample Moments for SAR Image Segmentation},
   year = {2019},
-  month={Sep}
+  month={Sep},
+    abstract={SAR image segmentation plays a central role in geoscience and remote sensing of the environment. Recently, methodologies that apply traditional segmentation algorithms to maps of statistical information extracted from SAR image rather than to the raw data itself have shown promising results. Nonetheless, the application of more powerful segmentation methods to these maps is constrained by the lack of adequate statistical models for such data. In this letter, we present a level-set-based algorithm that embodies much of the data statistics without assuming any prior model for it. We also evaluated its performance on both real and synthetic SAR images.},
+  url={https://ieeexplore.ieee.org/document/8832177},
+  bibtex_show = true,
 }
 
 @article{romuere2018activecontours, 
@@ -109,7 +130,10 @@ References
   journal={International Journal of Biomedical Engineering and Technology}, 
   title={Active contours for overlapping cervical cell segmentation},
   year={2021},
-  month={jan}
+  month={jan},
+    abstract={The nuclei and cytoplasm segmentation of cervical cells is a well studied problem. However, the current segmentation algorithms are not robust to clinical practice due to the high computational cost or because they cannot accurately segment cells with high overlapping. In this paper, we propose a method that is capable of segmenting both cytoplasm and nucleus of each individual cell in a clump of overlapping cells. The proposed method consists of three steps: 1) cellular mass segmentation; 2) nucleus segmentation; 3) cytoplasm identification based on an active contour method. We carried out experiments on both synthetic and real cell images. The performance evaluation of the proposed method showed that it was less sensitive to the increase in the number of cells per image and the overlapping ratio against two other existing algorithms. It has also achieved a promising low processing time and, hence, it has the potential to support expert systems for cervical cell recognition.},
+  url={Active contours for overlapping cervical cell segmentation},
+  bibtex_show = true,
 }
 
 @article{braga2021hierarchical,
@@ -118,14 +142,21 @@ References
   journal={Measurement},
   pages={109232},
   year={2021},
-  publisher={Elsevier}
+  publisher={Elsevier},
+    abstract={This paper presents a novel hierarchical nuclei segmentation algorithm for isolated and overlapping cervical cells based on a narrow band level set implementation. Our method applies a new multiscale analysis algorithm to estimate the number of clusters in each image region containing cells, which turns into the input to a narrow band level set algorithm. We assess the nuclei segmentation results on three public cervical cell image databases. Overall, our segmentation method outperformed six state-of-the-art methods concerning the number of correctly segmented nuclei and the Dice coefficient reached values equal to or higher than 0.90. We also carried out classification experiments using features extracted from our segmentation results and the proposed pipeline achieved the highest average accuracy values equal to 0.89 and 0.77 for two-class and three-class problems, respectively. These results demonstrated the suitability of the proposed segmentation algorithm to integrate decision support systems for cervical cell screening.},
+  url={Hierarchical median narrow band for level set segmentation of cervical cell nuclei},
+  bibtex_show = true,
 }
 
 @misc{neto2020spectral,
    Author = {Farias Sales Rocha Neto, Jeova and PF Felzenszwalb},
    Title = {Spectral Image Segmentation with Global Appearance Modeling},
    Year = {2020},
+   journal={arXiv},
    Eprint = {arXiv:2006.06573},
+   abstract={We introduce a new spectral method for image segmentation that incorporates long range relationships for global appearance modeling. The approach combines two different graphs, one is a sparse graph that captures spatial relationships between nearby pixels and another is a dense graph that captures pairwise similarity between all pairs of pixels. We extend the spectral method for Normalized Cuts to this setting by combining the transition matrices of Markov chains associated with each graph. We also derive an efficient method that uses importance sampling for sparsifying the dense graph of appearance relationships. This leads to a practical algorithm for segmenting high-resolution images. The resulting method can segment challenging images without any filtering or pre-processing. },
+  url={https://arxiv.org/abs/2006.06573},
+  bibtex_show = true,
 }
 
 @article{neto2021direct,
@@ -136,6 +167,9 @@ References
   number={1},
   pages={172--191},
   year={2022},
-  publisher={SIAM}
+  publisher={SIAM},
+    abstract={Image segmentation algorithms often depend on appearance models that characterize the distribution of pixel values in different image regions. We describe a new approach for estimating appearance models directly from an image, without explicit consideration of the pixels that make up each region. Our approach is based on novel algebraic expressions that relate local image statistics to the appearance of spatially coherent regions. We describe two algorithms that can use the aforementioned algebraic expressions to estimate appearance models directly from an image. The first algorithm solves a system of linear and quadratic equations using a least squares formulation. The second algorithm is a spectral method based on an eigenvector computation. We present experimental results that demonstrate the proposed methods work well in practice and lead to effective image segmentation algorithms.},
+  url={https://arxiv.org/abs/2102.11121},
+  bibtex_show = true,
 }
 

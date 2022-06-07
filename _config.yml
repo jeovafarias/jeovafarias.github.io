@@ -9,15 +9,12 @@ lang: en
 
 # Search engine optimization settings
 title: Jeova Farias
-tagline: A jekyll theme for academic portfolios
+tagline: Jeova Farias Sales Rocha Neto personal website
 description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
 author: Jeova Farias
-logo: /assets/img/smile.png
 social:
   name: Jeova Farias
-  links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
+
 locale: en_GB
 
 # Page Settings
@@ -50,8 +47,8 @@ scholar:
   locale: en
   last_name: Farias Sales Rocha Neto    
   first_name: Jeova
-  sort_by: year,month
-  order: descending,ascending
+  sort_by: year, month
+  order: descending, ascending
 
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
