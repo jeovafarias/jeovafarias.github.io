@@ -48,8 +48,8 @@
     image: # path: assets/project/
     date: 06/2015 &ndash; 06/2018; Finished
     title: Level Sets for Image Segmentation
-    summary: Imporving level set methods for image segmentation using local image statistics.
-    description:
+    summary: 
+    description: Improving level set methods for image segmentation using local image statistics.
     
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -58,8 +58,8 @@
     image: # path: assets/project/
     date: 06/2019 &ndash; Developing
     title: Appearence Model Estimation Directly from Image
-    summary: Directly estimating segmentation apperence models from images using statitical techiniques.
-    description:
+    summary: 
+    description: Directly estimating segmentation apperence models from images using statitical techiniques.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -68,8 +68,8 @@
     image: # path: assets/project/
     date: 06/2020 &ndash; Developing
     title: Spectral Clustering and Image Segmentation
-    summary: Improving the classical algorithms for real applications.
-    description:  
+    summary:
+    description:   Improving the classical algorithms for real applications.
     
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -78,8 +78,8 @@
     image: # path: assets/project/
     date: 06/2016 &ndash; Developing
     title: Statistical Leaning on SAR Imagery 
-    summary: Using statistical techinques to improve SAR image understanding and segmentation. 
-    description: 
+    summary: 
+    description:  Using statistical techinques to improve SAR image understanding and segmentation.
     
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -88,6 +88,6 @@
     image: # path: assets/project/
     date: 06/2021 &ndash; Developing
     title: Unsupervised Deep Learning 
-    summary: New techinques for Deep-Leaning clustering and Unsupervised image segmentation.
-    description: 
+    summary:
+    description:  New techinques for Deep-Leaning clustering and Unsupervised image segmentation.
     
