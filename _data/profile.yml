@@ -17,13 +17,13 @@ experience:
     title : B. Eng. in Telematics Engineering 
 
 interests:
-  - Intepretable Spectral Image Segmentation.
-  - Fast Methods for Clustering and Subspace Clustering.
-  - Appearence Estimation for Cut-Based Image Sementation.
-  - Deep Learning based Methods for Usupervised Learning
-  - Optimization (Discrete and Continuous).
-  - Statitical Learning and Level Sets.
-  - Applications in Biomedical and SAR imagery.
+  - Statistical Learning for Image Segmentation.
+  - Intepretable Spectral Clustering and Image Segmentation.
+  - Fast Methods for Data Clustering.
+  - Usupervised Deep Learning solutions for Image Segmentation and Clustering.
+  - Applications  level sets in Biomedical and SAR imagery.
+  - Discrete Optimization using Graph-Cuts.
+
 current_employment:
     - where: Haverford College
       what: stuff

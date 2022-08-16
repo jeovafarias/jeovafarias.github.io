@@ -1,0 +1,5 @@
+execute "bundle exec jekyll serve" on terminal
+
+then go to "http://localhost:4000"
+
+docs: https://jekyllrb.com/
