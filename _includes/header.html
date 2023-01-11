@@ -14,9 +14,6 @@
         <a href="{{ '/publications' | relative_url }}">
           <li class="btn-nav">Publications</li>
         </a>
-        <a href="{{ '/presentations' | relative_url }}">
-          <li class="btn-nav">Presentations</li>
-        </a>
         {% when 'publications' %}
         <a href="{{ '/'' | relative_url }}">
           <li class="btn-nav">Home</li>
@@ -24,23 +21,7 @@
         <a href="{{ '/assets/pdfs/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
           <li class="btn-nav">CV</li>
         </a>
-        <li class="current">Publications</li>
-        <a href="{{ '/presentations' | relative_url }}">
-          <li class="btn-nav">Presentations</li>
-        </a>
-        {% when 'presentations' %}
-        <a href="{{ '/'' | relative_url }}">
-          <li class="btn-nav">Home</li>
-        </a>
-        <a href="{{ '/assets/pdfs/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-          <li class="btn-nav">CV</li>
-        </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
-        </a>
-        <li class="current">Presentations</li>
-        </a>
-        
+        <li class="current">Publications</li>        
         {% endcase %}
       </ul>
     </nav>
