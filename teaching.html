@@ -39,6 +39,17 @@
     <nav>
       <ul>
         
+            <a href="/">
+                <li class="btn-nav">Home</li>
+            </a>
+            <a href="/assets/pdfs/CV.pdf" target="_blank" rel="noopener noreferrer">
+                <li class="btn-nav">CV</li>
+            </a>
+            <a href="/publications">
+                <li class="btn-nav">Publications</li>
+            </a> 
+            <li class="current">Teaching</li>  
+        
       </ul>
     </nav>
   </header>
@@ -47,43 +58,125 @@
 <div id="teaching">
   <section class="bg"></section>
   <h1 class="title">Teaching</h1>
-  <p> Teaching is so fun!</p>
-  
-  <p>Haverford College:</p>
-    <button class="collapsible">CS105: Intro to Computer Science</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <button class="collapsible">CS106: Intro to Data Structures</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <button class="collapsible">CS396: Deep Learning for Computer Vision</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <p>Brown University:</p>
-    <button class="collapsible">CECS0915: Artificial Intelligence: Modeling Human Intelligence With Networks </button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-</div>
+     <br/>
+    
+    
+        <p class="title"> Bowdoin College </p>
+        <ul class="course-list">
+        
+            <li class="course"> (CS3485) Deep Learning for Computer Vision</li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Fall 2023 </span>
+                
+            
+            
+        
+        </ul>
+    
+        <p class="title"> Haverford College </p>
+        <ul class="course-list">
+        
+            <li class="course"> (CS105) Introduction to Computer Science</li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Fall 2021 </span>
+                
+            
+                
+                   <span class="term"> Fall 2022 </span>
+                
+            
+            
+        
+            <li class="course"> (CS106) Introduction to Data Structures</li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Spring 2022 </span>
+                
+            
+                
+                   <span class="term"> Spring 2023 </span>
+                
+            
+            
+        
+            <li class="course"> (CS260) Foundations of Data Science <i> (Co-instructor)</i></li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Fall 2021 </span>
+                
+            
+            
+        
+            <li class="course"> (CS360) Machine Learning <i> (Co-instructor)</i></li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Spring 2022 </span>
+                
+            
+            
+        
+            <li class="course"> (CS396) Deep Learning for Computer Vision</li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Fall 2022 </span>
+                
+            
+            
+        
+        </ul>
+    
+        <p class="title"> Brown University </p>
+        <ul class="course-list">
+        
+            <li class="course"> Artificial Intelligence and Deep Learning</li>
+            
+                   <span class="term">  </span>
+                
+            
+                
+                   <span class="term"> Summer 2019 </span>
+                
+            
+            
+        
+        </ul>
+    
 
 <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+    var coll = document.getElementsByClassName("course");
+    var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        } 
+    });
+    }
 </script>
 
 
