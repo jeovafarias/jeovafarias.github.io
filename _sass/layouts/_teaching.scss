@@ -14,39 +14,54 @@
         color:#fff;
         margin-bottom: 30px;
     }
-    .collapsible {
-        background-color: #777;
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-    }
 
-    .active, .collapsible:hover {
-        background-color: #555;
-    }
+    .active, .course:hover {
+        color: $theme-dark;
+    }   
 
-    .collapsible:after {
-        content: '\002B';
-        color: white;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-    }
-
-    .active:after {
+/*    .active::after {
         content: "\2212";
-    }
+    }*/
 
     .content {
+        margin-left: 30pt;
         padding: 0 18px;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
         background-color: #f1f1f1;
+    }
+    
+    ul.course-list {
+        margin-left: 3%;
+        list-style-type: none;
+        list-style-position: inside;
+        cursor: pointer; 
+        li.course {
+          margin: 8px auto;
+          padding-left: 5px;
+          font-size: 15pt;
+          font-weight: 600;
+        }
+        li.course::before {
+          content: "•";
+          font-size: 200%;
+          color: $theme-color;
+          padding-right: 5px;
+          vertical-align: text-top;
+        }
+    }
+
+    
+    
+    p.title {
+      margin-top: 15px;
+      color: $theme-dark;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    
+    span.term {
+       margin-left: 30pt;
     }
 }

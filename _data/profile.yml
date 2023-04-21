@@ -23,12 +23,59 @@ interests:
   - Usupervised Deep Learning solutions for Image Segmentation and Clustering.
   - Applications  level sets in Biomedical and SAR imagery.
   - Discrete Optimization using Graph-Cuts.
+  
+courses_taught:
+    - college_name: Bowdoin College
+      courses:
+      - course_name: "(CS3485) Deep Learning for Computer Vision"
+        description: 
+        offerings: 
+        - term: Fall 2023
+          url: 
+    - college_name: Haverford College
+      courses:
+      - course_name: "(CS105) Introduction to Computer Science"
+        description: 
+        offerings: 
+        - term: Fall 2021
+          url: 
+        - term: Fall 2022
+          url: 
+      - course_name: "(CS106) Introduction to Data Structures"
+        description: 
+        offerings: 
+        - term: Spring 2022
+          url:  
+        - term: Spring 2023
+          url:  
+      - course_name: "(CS260) Foundations of Data Science <i> (Co-instructor)</i>"
+        description: 
+        offerings: 
+        - term: Fall 2021
+          url:  
+      - course_name: "(CS360) Machine Learning <i> (Co-instructor)</i>"
+        description: 
+        offerings: 
+        - term: Spring 2022
+          url:  
+      - course_name: "(CS396) Deep Learning for Computer Vision"
+        description: 
+        offerings: 
+        - term: Fall 2022
+          url: 
+    - college_name: Brown University
+      courses:
+      - course_name: "Artificial Intelligence and Deep Learning"
+        description:
+        offerings:
+        - term: Summer 2019
 
 current_employment:
     - where: Haverford College
       what: stuff
     - where: Maxia
       what: stuff
+      
 skills: 
   - skill: Matlab
     value: 90  # Percent value
