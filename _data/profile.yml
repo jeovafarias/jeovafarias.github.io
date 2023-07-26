@@ -28,10 +28,10 @@ courses_taught:
     - college_name: Bowdoin College
       courses:
       - course_name: "(CS3485) Deep Learning for Computer Vision"
-        description: 
+        description: Computer Vision has become ubiquitous in our society, image searches to self-driving cars. On the other hand, Deep learning has shaken the world of artificial intelligence in the recent years. Most of these developments greatly advanced the performance of state-of-the-art visual recognition systems, which put Computer Vision in the epicenter of most technological progress from the past decade. In this context, this course aims at providing a consistent exploration of how deep learning started to its most recent achievements, always using Computer Vision tasks as their main application, historically or practically. During the course, we'll also understand many of the main computer vision problems and use them as cases for the introduction of various deep learning related problems. Finally, this course hope to give students working knowledge of PyTorch, one of the main deep learning frameworks, and prepare them to future industrial and academic careers in the field.
         offerings: 
         - term: Fall 2023
-          url: 
+          url: https://jeovafarias.github.io/DeepLearning4CV-F2023/
     - college_name: Haverford College
       courses:
       - course_name: "(CS105) Introduction to Computer Science"
