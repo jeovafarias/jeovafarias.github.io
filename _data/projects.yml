@@ -2,8 +2,9 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2015 &ndash; 06/2018; Finished
+    image: 
+        path: "level_set.png" 
+    date: 
     title: Level Sets for Image Segmentation
     summary: 
     description: Improving level set methods for image segmentation using local image statistics.
@@ -12,28 +13,31 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Appearence Model Estimation Directly from Image
+    image: 
+        path: "nmf.png"
+    date: 
+    title: Statistical Color Model Estimation for Segmentation
     summary: 
-    description: Directly estimating segmentation apperence models from images using statitical techiniques.
+    description: Directly estimating segmentation appearence models from images using statitical techiniques, such as Non negative Matrix Factorization.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2020 &ndash; Developing
+    image:
+        path: "graph_clustering.png"
+    date: 
     title: Spectral Clustering and Image Segmentation
     summary:
-    description:   Improving the classical algorithms for real applications.
+    description: Improving the classical spectral algorithms for real applications.
     
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2016 &ndash; Developing
+    image: 
+        path: "sar_seg.png"
+    date: 
     title: Statistical Learning on SAR Imagery 
     summary: 
     description:  Using statistical techinques to improve SAR image understanding and segmentation.
@@ -42,9 +46,54 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2021 &ndash; Developing
-    title: Unsupervised Deep Learning 
+    image: 
+        path: "graph_cut.png"
+    date: 
+    title: Deep Learning for Data Clustering
     summary:
-    description:  New techinques for Deep-Learning clustering and Unsupervised image segmentation.
+    description:  New techinques for Deep Learning-bases clustering using Graph Cuts, CNNs and Transformers.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: 
+        path: "cnn.png"
+    date: 
+    title: Deep Learning for Supervised and Unsupervised Image Segmentation
+    summary:
+    description: Creating new architecures and training startegies that leverage local and global image contents for both supervised and unsupervised segmentation.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: 
+        path: "gan.png"
+    date: 
+    title: Psychological Perpectives in Deep Image Generation 
+    summary:
+    description: Study of how certain patterns, such as biases, emerge in modern image generation algorithms.
     
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: 
+        path: "superpixel.png"
+    date: 
+    title: Segmentation from Superpixels
+    summary:
+    description: Utilizing statistical and graphical modeling for segmentation using superpixels.
+       
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: 
+        path: "irt.png"
+    date: 
+    title: Techiniques to Efficiently Measure Student Performnace
+    summary:
+    description: Finding algorithms that impronte the classical estimators for Item Respose Theory
+       

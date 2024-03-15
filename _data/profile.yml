@@ -1,6 +1,6 @@
 image: assets/img/myphoto.png
 username: Jeova Farias Sales Rocha Neto
-description:  I am currently a Visiting Assistant Professor in the Computer Science Department at [Haverford College](https://www.haverford.edu/). I received a PhD in Computer Engineering and a Masters in Applied Mathematics from [Brown University](https://www.brown.edu/) in 2021, where I had the honor to be advised by Prof. [Pedro Felzenszwalb](cs.brown.edu/people/pfelzens/). In 2015, I earned a Masters degree in Computer Science at  [University of Nice-Sophia Antipolis](unice.fr) under Prof. [Marc Antonini](http://www.i3s.unice.fr/~am/Biography.html) and prior to that I completed my Bachelors degree in Computer Engineering at [Federal University of Ceara (UFC)](http://www.ufc.br) under Prof. [Fátima N. S. de Medeiros](http://lattes.cnpq.br/5144730275745518). <br> <br>  I am broadly interested in unsupervised problems in Computer Vision and Machine Learning. In my current research, I am interested in using discrete optimization, statistics and deep learning to tackle Image Segmentation and Clustering. Previously, I worked on machine learning problems involving Probabilistic Graphical Models and Semidefinite Programming. In my undergrad years, my research focus was on Synthetic Aperture Radar and Biomedical Image Segmentation using Level Sets.
+description: I am an Assistant Professor of Computer Science at [Bowdoin College](https://www.bowdoin.edu/). Before that, I was a Visitor Professor in the Computer Science Department at [Haverford College](https://www.haverford.edu/). I received a PhD in Computer Engineering and a Masters in Applied Mathematics from [Brown University](https://www.brown.edu/) in 2021, where I was advised by Prof. [Pedro Felzenszwalb](cs.brown.edu/people/pfelzens/). In 2015, I earned a Masters degree in Computer Science at  [University of Nice-Sophia Antipolis](unice.fr) under Prof. [Marc Antonini](http://www.i3s.unice.fr/~am/Biography.html) and prior to that I completed my Bachelors degree in Computer Engineering at [Federal University of Ceara (UFC)](http://www.ufc.br) under Prof. [Fátima Medeiros](http://lattes.cnpq.br/5144730275745518). <br> <br>  I am broadly interested in unsupervised problems in Computer Vision and Machine Learning. In my current research, I am interested in using discrete optimization, statistics and deep learning to tackle Image Segmentation and Clustering. Previously, I worked on machine learning problems involving Probabilistic Graphical Models and Semidefinite Programming. In my undergrad years, my research focus was on Synthetic Aperture Radar and Biomedical Image Segmentation using Level Sets.
 webpage: https://jeovafarias.github.io
 experience:
   - start: 2016
@@ -14,7 +14,7 @@ experience:
   - start: 2011
     end: 2015
     university : Federal University of Ceará (Fortaleza, Brazil)
-    title : B. Eng. in Telematics Engineering 
+    title : B. Eng. in Telematics Engineering
 
 interests:
   - Statistical Learning for Image Segmentation.
@@ -23,50 +23,50 @@ interests:
   - Usupervised Deep Learning solutions for Image Segmentation and Clustering.
   - Applications  level sets in Biomedical and SAR imagery.
   - Discrete Optimization using Graph-Cuts.
-  
+
 courses_taught:
     - college_name: Bowdoin College
       courses:
       - course_name: "(CS3485) Deep Learning for Computer Vision"
-        description: Computer Vision has become ubiquitous in our society, image searches to self-driving cars. On the other hand, Deep learning has shaken the world of artificial intelligence in the recent years. Most of these developments greatly advanced the performance of state-of-the-art visual recognition systems, which put Computer Vision in the epicenter of most technological progress from the past decade. In this context, this course aims at providing a consistent exploration of how deep learning started to its most recent achievements, always using Computer Vision tasks as their main application, historically or practically. During the course, we'll also understand many of the main computer vision problems and use them as cases for the introduction of various deep learning related problems. Finally, this course hope to give students working knowledge of PyTorch, one of the main deep learning frameworks, and prepare them to future industrial and academic careers in the field.
-        offerings: 
+        description: Computer Vision has become ubiquitous in our society, image searches to self-driving cars. On the other hand, Deep learning has shaken the world of artificial intelligence in the recent years. Most of these developments greatly advanced the performance of state-of-the-art visual recognition systems, which put Computer Vision in the epicenter of most technological progress from the past decade. In this context, this course aims at providing a consistent exploration of how deep learning started to its most recent achievements, always using Computer Vision tasks as their main application, historically or practically. During the course, we'll also understand many of the main computer vision problems and use them as cases for the introduction of various deep learning related problems. Finally, this course hopes to give students working knowledge of PyTorch, one of the main deep learning frameworks, and prepare them to future industrial and academic careers in the field.
+        offerings:
         - term: Fall 2023
-          url: https://jeovafarias.github.io/DeepLearning4CV-F2023/
+          url: https://jeovafarias.github.io/Bowdoin-CS3485-F23/
     - college_name: Haverford College
       courses:
       - course_name: "(CS105) Introduction to Computer Science"
-        description: 
-        offerings: 
+        description: Introduction to computer science with an emphasis on problem-solving, programming, and algorithm design. Uses a high-level programming language for solving problems and emphasizing program design and development. Topics include basic programming techniques and approaches to algorithm design, and techniques for understanding the process of computation and the correctness of software. Python was used throughout the course.
+        offerings:
         - term: Fall 2021
-          url: 
+          url:
         - term: Fall 2022
-          url: 
+          url:
       - course_name: "(CS106) Introduction to Data Structures"
-        description: 
-        offerings: 
+        description: An introduction to the fundamental data structures of computer science -- strings, lists, stacks, queues, trees, BSTs, graphs, sets and their accompanying algorithms. Principles of algorithmic analysis and object reasoning and design are introduced using mathematical techniques for the notions of both complexity and correctness. More practical issues, such as memory management and hashing, are also covered. The programming language used to illustrate and implement these concepts will be able to support functional, imperative and object-oriented approaches. For these years, we used Java.
+        offerings:
         - term: Spring 2022
-          url:  
+          url:
         - term: Spring 2023
-          url:  
+          url:
       - course_name: "(CS260) Foundations of Data Science <i> (Co-instructor)</i>"
-        description: 
-        offerings: 
+        description:  This course introduces core principles of learning from data. More and more decisions are being made by algorithms that operate on large datasets, and this course will give students the tools to understand and contribute to this process. Throughout we emphasize the ethical use of data and analyze case studies of how data science has intersected with society. This course has a significant theory component, covering introductory linear algebra, probability, statistics, modeling, information theory, and optimization. However, we implement these ideas (in Python) and apply them to concrete datasets from a variety of fields (including images, video, text, DNA, music, art, etc). Course designed by <a href="https://smathieson.sites.haverford.edu/" class="btn btn-sm z-depth-0" role="button">Professor Sara Mathieson.</a>
+        offerings:
         - term: Fall 2021
-          url:  
+          url:
       - course_name: "(CS360) Machine Learning <i> (Co-instructor)</i>"
-        description: 
-        offerings: 
+        description: To explore both classical and modern approaches, with an emphasis on theoretical understanding. There will be a significant math component (statistics and probability in particular), as well as a substantial implementation component (as opposed to using high-level libraries). However, during the last part of the course we will use a few modern libraries such as TensorFlow and Keras. By the end of this course, students should be able to form a hypothesis about a dataset of interest, use a variety of methods and approaches to test your hypothesis, and be able to interpret the results to form a meaningful conclusion. We will focus on real-world, publicly available datasets, not generating new data. Course designed by <a href="https://agrissom.sites.haverford.edu/" class="btn btn-sm z-depth-0" role="button">Professor Alvin Grissom II.</a>
+        offerings:
         - term: Spring 2022
-          url:  
+          url:
       - course_name: "(CS396) Deep Learning for Computer Vision"
-        description: 
-        offerings: 
+        description: Computer Vision has become ubiquitous in our society, image searches to self-driving cars. On the other hand, Deep learning has shaken the world of artificial intelligence in the recent years. Most of these developments greatly advanced the performance of state-of-the-art visual recognition systems, which put Computer Vision in the epicenter of most technological progress from the past decade. In this context, this course aims at providing a consistent exploration of how deep learning started to its most recent achievements, always using Computer Vision tasks as their main application, historically or practically. During the course, we'll also understand many of the main computer vision problems and use them as cases for the introduction of various deep learning related problems. Finally, this course hopes to give students working knowledge of PyTorch, one of the main deep learning frameworks, and prepare them to future industrial and academic careers in the field.
+        offerings:
         - term: Fall 2022
-          url: 
+          url:
     - college_name: Brown University
       courses:
       - course_name: "Artificial Intelligence and Deep Learning"
-        description:
+        description: A summer course designed to introduce sudents to the concepts of supervised learning, optimization and neural networks. The students were not expected to have any prior contact with programming before this class. At the end of it, they would be able to run simple neural network based classification algorithms using Keras.
         offerings:
         - term: Summer 2019
 
@@ -75,8 +75,8 @@ current_employment:
       what: stuff
     - where: Maxia
       what: stuff
-      
-skills: 
+
+skills:
   - skill: Matlab
     value: 90  # Percent value
   - skill: Python (Numpy, keras, Tensorflow, Pandas ...)
@@ -87,16 +87,16 @@ skills:
     value: 50  # Percent value
 social:
   email: jeova_farias@brown.edu
-  orcid: 
+  orcid:
   scholar: jpdvR1IAAAAJ&hl
-  publons: 
-  research_gate: 
-  linkedin:  https://www.linkedin.com/in/jeova-farias 
+  publons:
+  research_gate:
+  linkedin:  https://www.linkedin.com/in/jeova-farias
   github: jeovafarias
-  gitlab: 
+  gitlab:
   bitbucket:
   google_plus:
-  twitter: 
+  twitter:
   youtube:
   facebook:
   instagram:
